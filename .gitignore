@@ -1,0 +1,21 @@
+# PlatformIO build artifacts
+firmware/.pio/
+firmware/.vscode/
+
+# OS
+.DS_Store
+
+# Claude Code
+.claude/
+
+# Node tooling deps (npm install --no-save)
+tools/node_modules/
+tools/package-lock.json
+
+# Mac daemon venv
+daemon/.venv/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+skill-observations/
