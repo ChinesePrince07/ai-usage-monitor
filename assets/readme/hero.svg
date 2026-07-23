@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">AI Usage Monitor</title>
+  <desc id="desc">A technical AMOLED dashboard showing Claude, Codex, Gemini, and host statistics flowing over Bluetooth to an ESP32 display.</desc>
+  <rect width="1200" height="390" rx="26" fill="#090b0d"/>
+  <g transform="translate(58 48)">
+    <text font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" letter-spacing="3" fill="#f0a46b">ESP32 · BLE · MULTI-PROVIDER</text>
+    <text y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="65" font-weight="750" fill="#f7f7f2">AI Usage</text>
+    <text y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="65" font-weight="750" fill="#f7f7f2">Monitor</text>
+    <text y="187" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" fill="#aeb5bd">Your coding limits and host health, always in view.</text>
+    <g transform="translate(0 230)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">
+      <text fill="#d97757">CLAUDE</text><text x="104" fill="#7bc4ff">CODEX</text><text x="188" fill="#9adf9f">GEMINI</text><text x="286" fill="#c0c6cd">SYSTEM</text>
+    </g>
+  </g>
+  <g transform="translate(715 34)">
+    <rect width="426" height="322" rx="38" fill="#15191e" stroke="#343b43" stroke-width="3"/>
+    <rect x="24" y="24" width="378" height="274" rx="22" fill="#050607"/>
+    <text x="52" y="64" font-family="Georgia, serif" font-size="25" fill="#f5f2ed">Codex</text>
+    <text x="354" y="61" text-anchor="end" font-family="ui-monospace, monospace" font-size="17" fill="#87909a">PLUS</text>
+    <text x="52" y="112" font-family="ui-monospace, monospace" font-size="50" fill="#7bc4ff">63%</text>
+    <text x="185" y="107" font-family="-apple-system, sans-serif" font-size="18" fill="#aeb5bd">weekly used</text>
+    <rect x="52" y="134" width="300" height="14" rx="7" fill="#242a31"/><rect x="52" y="134" width="189" height="14" rx="7" fill="#7bc4ff"/>
+    <text x="52" y="190" font-family="ui-monospace, monospace" font-size="19" fill="#aeb5bd">CONTEXT</text>
+    <rect x="52" y="207" width="300" height="14" rx="7" fill="#242a31"/><rect x="52" y="207" width="132" height="14" rx="7" fill="#f0a46b"/>
+    <g transform="translate(52 250)" font-family="ui-monospace, monospace" font-size="17">
+      <circle cx="8" cy="-6" r="7" fill="#66d28f"/><text x="25" fill="#aeb5bd">BLE SYNCED</text>
+      <text x="300" text-anchor="end" fill="#69727c">09:42</text>
+    </g>
+  </g>
+</svg>
